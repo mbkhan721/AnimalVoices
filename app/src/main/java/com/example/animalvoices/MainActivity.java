@@ -1,7 +1,10 @@
 package com.example.animalvoices;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
         mpPigs = new MediaPlayer();
         mpPigs = MediaPlayer.create(this, R.raw.pigs);
         playing = 0;
+
+        // changing action bar color
+        ActionBar actionBar;
+        actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        actionBar.setBackgroundDrawable(colorDrawable);
     }
     Button.OnClickListener bCows = new Button.OnClickListener() {
         @Override
