@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Animal Voices</string>
+    <string name="txtSplash">Animal Voices</string>
+    <string name="imgCows">Cows Image</string>
+    <string name="imgPigs">Pigs Image</string>
+    <string name="btnCows">LISTEN TO THE COWS</string>
+    <string name="btnPigs">LISTEN TO THE PIGS</string>
+</resources>
