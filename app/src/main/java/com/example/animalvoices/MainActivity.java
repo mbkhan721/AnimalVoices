@@ -24,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(bCows);
         button2.setOnClickListener(bPigs);
         mpCows = new MediaPlayer();
-        mpCows = MediaPlayer.create(this,R.raw.cows);
+        mpCows = MediaPlayer.create(this,R.raw.beyonce);
         mpPigs = new MediaPlayer();
-        mpPigs = MediaPlayer.create(this, R.raw.pigs);
+        mpPigs = MediaPlayer.create(this, R.raw.waris);
         playing = 0;
 
         // changing action bar color
         ActionBar actionBar;
         actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#87CEEB"));
         actionBar.setBackgroundDrawable(colorDrawable);
     }
     Button.OnClickListener bCows = new Button.OnClickListener() {
@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     mpCows.start();
                     playing = 1;
-                    button1.setText("Pause Cows Sound");
+                    button1.setText("Pause This Song");
                     button2.setVisibility(View.INVISIBLE);
                     break;
                 case 1:
                     mpCows.pause();
                     playing = 0;
-                    button1.setText("Play Cows Sound");
+                    button1.setText("Play Beyonce Song");
                     button2.setVisibility(View.VISIBLE);
                     break;
             }
@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     mpPigs.start();
                     playing = 1;
-                    button2.setText("Pause Pigs Sound");
+                    button2.setText("Pause This Song");
                     button1.setVisibility(View.INVISIBLE);
                     break;
                 case 1:
                     mpPigs.pause();
                     playing = 0;
-                    button2.setText("Play Pigs Sound");
+                    button2.setText("Play Waris Baig Song");
                     button1.setVisibility(View.VISIBLE);
                     break;
             }

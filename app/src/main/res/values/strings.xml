@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Animal Voices</string>
-    <string name="txtSplash">Animal Voices</string>
-    <string name="imgCows">Cows Image</string>
-    <string name="imgPigs">Pigs Image</string>
-    <string name="btnCows">LISTEN TO THE COWS</string>
-    <string name="btnPigs">LISTEN TO THE PIGS</string>
+    <string name="app_name">Serenity Sounds</string>
+    <string name="txtSplash">Relaxation App</string>
+    <string name="txt2Song">This is a very old song by a Pakistani singer. It sounds very relaxing
+        to listen to even if you dont understand Urdu language.</string>
+    <string name="btnCows">LISTEN TO BEYONCE</string>
+    <string name="btnPigs">LISTEN TO WAIRS BAIG</string>
+    <string name="text1Song">Listen to the voice of Beyonce featuring Sean Paul. This is a very old record but still very relaxing to listen.</string>
 </resources>

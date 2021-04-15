@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         // changing action bar color
         ActionBar actionBar;
         actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#87CEEB"));
         actionBar.setBackgroundDrawable(colorDrawable);
 
         TimerTask task = new TimerTask() {

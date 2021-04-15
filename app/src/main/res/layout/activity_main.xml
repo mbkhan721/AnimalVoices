@@ -10,48 +10,53 @@
         android:id="@+id/btnPigs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="440dp"
         android:text="@string/btnPigs"
         android:textSize="18sp"
         app:backgroundTint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imgCows"
-        android:layout_width="320dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/imgCows"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cows" />
 
     <Button
         android:id="@+id/btnCows"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="204dp"
         android:text="@string/btnCows"
         android:textSize="18sp"
         app:backgroundTint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imgPigs"
-        android:layout_width="320dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="261dp"
-        android:contentDescription="@string/imgPigs"
+    <TextView
+        android:id="@+id/text1Song"
+        android:layout_width="370dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="78dp"
+        android:gravity="center"
+        android:text="@string/text1Song"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pigs" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2Song"
+        android:layout_width="369dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:text="@string/txt2Song"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
